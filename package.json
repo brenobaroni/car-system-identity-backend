@@ -1,5 +1,31 @@
 {
+  "name": "car-system-identity-backend",
+  "version": "1.0.0",
+  "description": "this is a identity project develophed to work a microservice",
+  "main": "index.js",
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "start-dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenobaroni/car-system-identity-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brenobaroni/car-system-identity-backend/issues"
+  },
+  "homepage": "https://github.com/brenobaroni/car-system-identity-backend#readme"
 }
