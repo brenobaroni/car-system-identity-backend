@@ -26,7 +26,7 @@ const auth = async (req, res) => {
             "success": false,
             "message": "Auth Faild."
         }
-        return res.status(400).json(JSON.stringify(response));
+        return res.status(400).json(response);
     }
 }
 
