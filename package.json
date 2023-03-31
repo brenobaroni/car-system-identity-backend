@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "env-cmd .env node src/index.js",
+    "start": "env-cmd -f .env node src/server.js",
     "start-dev": "env-cmd -f .env.dev nodemon src/server.js"
   },
   "repository": {
